@@ -19,12 +19,12 @@ Kasus dan parameter mengikuti proposal Tahap 1 dan laporan tugas akhir. Program 
 
 Pada keadaan stabil, suhu setiap titik dalam sama dengan rata-rata suhu empat tetangganya: atas, bawah, kiri, dan kanan. Untuk titik dalam pada baris (i) dan kolom (j):
 
-<img width="457" height="94" alt="image" src="https://github.com/user-attachments/assets/ca710332-32d6-4cca-9032-d8b2e1851447" />
+<p align="center"><img width="457" height="94" alt="image" src="https://github.com/user-attachments/assets/ca710332-32d6-4cca-9032-d8b2e1851447" />
 
 
 Suhu pada sisi pelat yang diketahui dimasukkan ke ruas kanan. Persamaan seluruh titik dalam kemudian disusun menjadi:
 
-<img width="135" height="58" alt="image" src="https://github.com/user-attachments/assets/87d72884-e6a7-4f63-9a4f-34157b8bffa1" />
+<p align="center"><img width="135" height="58" alt="image" src="https://github.com/user-attachments/assets/87d72884-e6a7-4f63-9a4f-34157b8bffa1" />
 
 
 Parameter suhu batas yang digunakan:
