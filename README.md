@@ -19,9 +19,7 @@ Kasus dan parameter mengikuti proposal Tahap 1 dan laporan tugas akhir. Program 
 
 Pada keadaan stabil, suhu setiap titik dalam sama dengan rata-rata suhu empat tetangganya: atas, bawah, kiri, dan kanan. Untuk titik dalam pada baris (i) dan kolom (j):
 
-\[
-T\_{i,j}=\\frac{T\_{i-1,j}+T\_{i+1,j}+T\_{i,j-1}+T\_{i,j+1}}{4}
-]
+\[T\_{i,j}=\\frac{T\_{i-1,j}+T\_{i+1,j}+T\_{i,j-1}+T\_{i,j+1}}{4}]
 
 Suhu pada sisi pelat yang diketahui dimasukkan ke ruas kanan. Persamaan seluruh titik dalam kemudian disusun menjadi:
 
