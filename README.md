@@ -19,13 +19,13 @@ Kasus dan parameter mengikuti proposal Tahap 1 dan laporan tugas akhir. Program 
 
 Pada keadaan stabil, suhu setiap titik dalam sama dengan rata-rata suhu empat tetangganya: atas, bawah, kiri, dan kanan. Untuk titik dalam pada baris (i) dan kolom (j):
 
-\[T\_{i,j}=\\frac{T\_{i-1,j}+T\_{i+1,j}+T\_{i,j-1}+T\_{i,j+1}}{4}]
+<img width="457" height="94" alt="image" src="https://github.com/user-attachments/assets/ca710332-32d6-4cca-9032-d8b2e1851447" />
+
 
 Suhu pada sisi pelat yang diketahui dimasukkan ke ruas kanan. Persamaan seluruh titik dalam kemudian disusun menjadi:
 
-\[
-A\\mathbf{T}=\\mathbf{b}
-]
+<img width="135" height="58" alt="image" src="https://github.com/user-attachments/assets/87d72884-e6a7-4f63-9a4f-34157b8bffa1" />
+
 
 Parameter suhu batas yang digunakan:
 
@@ -213,8 +213,4 @@ simulasi\_distribusi\_panas/
 ## 9\. Kesimpulan
 
 Berdasarkan pengujian grid 3×3, ketiga metode menghasilkan suhu yang sama sampai empat angka di belakang koma. Gauss-Seidel memerlukan 27 iterasi, lebih sedikit daripada Jacobi yang memerlukan 50 iterasi untuk tebakan awal 0 °C. Eliminasi Gauss memberikan solusi langsung dengan residual sekitar (2,8\\times10^{-14}) dan digunakan sebagai solusi acuan. Tebakan awal 25 °C sedikit mengurangi jumlah iterasi tanpa mengubah hasil akhir. Waktu komputasi untuk sembilan persamaan terlalu kecil untuk dijadikan dasar utama perbandingan. Grid 39×39 digunakan sebagai ilustrasi distribusi suhu dan grafik konvergensi.
-
-## Daftar Pustaka
-
-Niemeyer, K. (n.d.). *5.1. Elliptic PDEs*. Dalam *Mechanical Engineering Methods*. https://kyleniemeyer.github.io/ME373-book/content/pdes/elliptic.html
 
